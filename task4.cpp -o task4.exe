@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+void checkspeed(int speed);
+void checkSpeed(int speed);
+main() {
+	int speed;
+	cout<<"Speed: ";
+	cin >>speed;
+	if(speed > 100)
+	{ checkspeed(speed);
+	}
+	if(speed !> 100)
+	{ checkSpeed(speed);
+	}
+	}
+	void checkspeed(int speed)
+	{ cout <<"Halt... YOU WILL BE CHALLANGED!!!";
+	}
+	void checkSpeed(int speed)
+	{ cout <<"Perfect!You're going good.";
+	}

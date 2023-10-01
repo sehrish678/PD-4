@@ -1,0 +1,53 @@
+#include<iostream>
+using namespace std;
+void country1(string name);
+void country2(string name);
+void country3(string name);
+void country4(string name);
+void country5(string name);
+
+main() {
+	string name;
+	cout<< "Enter the country's name: ";
+	cin >>name;
+	int amount;
+	cout<< "Enter the ticket price in dollars: $";
+	cin >>amount;
+	if(name == "Pakistan")
+	{
+	country1(name);
+	}
+	if(name == "Ireland")
+	{
+	country2(name);
+	}
+	if(name == "India")
+	{ country3(name);
+	}
+	if(name == "England")
+	{ country4(name);
+	}
+	if(name == "Canada")
+	{ country5(name);
+	}
+	}
+	void country1(string name)
+	{ disc1 = amount-((amount*5)/100)
+	cout <<"Final ticket price after discount: $"<<disc1;
+	}
+	void country2(string name)
+	{disc2 = amount-((amount*10)/100)
+	cout <<"Final ticket price after discount: $"<<disc2;
+	}
+	void country3(string name)
+	{disc3 = amount-((amount*20)/100)
+	cout <<"Final ticket price after discount: $"<<disc3;
+	}
+	void country4(string name)
+	{disc4 = amount-((amount*30)/100)
+	cout <<"Final ticket price after discount: $"<<disc4;
+	}
+	void country5(string name)
+	{disc5 = amount-((amount*45)/100)
+	cout <<"Final ticket price after discount: $"<<disc5;
+	}

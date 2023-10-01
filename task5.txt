@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+void position(int position1,int position2);
+void position3(int position1,int position3);
+main() {
+	int position1;
+	cout<<"Enter your position: ";
+	cin >>position2;
+	int position2;
+	cout<<"Enter your friend's position: ";
+	cin position2;
+	int op;
+	op = position2-1;
+	if(op == position1+position1)
+	{ position(position1,position2);
+	}
+	if(op! = position1+position1)
+	{ position3(position1,position2)
+	}
+	void position(int position1,int position2)
+	{ cout<<"true";
+	}
+	void position3(int position1,int position3)
+	{ cout<<"false";
+	}	
